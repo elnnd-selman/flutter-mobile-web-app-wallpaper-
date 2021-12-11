@@ -67,6 +67,11 @@ class _CategorieState extends State<Categorie> {
                 height: 30,
               ),
               wallpaperList(wallpapers: wallpapers, context: context),
+              Container(
+                decoration: BoxDecoration(
+                  
+                ),
+              )
             ],
           ),
         ),

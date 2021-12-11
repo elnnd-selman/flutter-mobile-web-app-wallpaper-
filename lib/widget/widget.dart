@@ -52,7 +52,7 @@ Widget wallpaperList({List<WallpaperModel> wallpapers, context}) {
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: FadeInImage.assetNetwork(
-                  placeholder: 'assets/Spinner-1s-200px.gif',
+                  placeholder: 'assets/3.gif',
                   image: e.src.portrait,
                   fit: BoxFit.cover,
                 ),
